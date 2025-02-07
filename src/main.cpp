@@ -10,7 +10,7 @@ void setup()
 {
   Serial.begin(115200);          // set serial rate to 115200
 }                                // make sure that platformio.ini uses the same value
-
+                                 // for example:    monitor_speed = 115200
 void loop() 
 {
   printf("Hello World");         // send Hello World to the stdout buffer
