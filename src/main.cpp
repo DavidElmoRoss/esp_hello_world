@@ -8,7 +8,7 @@
 
 void setup() 
 {
-  Serial.begin(115200);          // set serial rate to 115200
+  Serial.begin(9600);          // set serial rate to 9600
 }                                // make sure that platformio.ini uses the same value
                                  // for example:    monitor_speed = 115200
 void loop() 
